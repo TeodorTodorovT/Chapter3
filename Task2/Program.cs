@@ -9,7 +9,7 @@ namespace Task2
             Console.Write("Enter a number: ");
             int num = int.Parse(Console.ReadLine());
             bool div = num % 35 == 0 ? true : false;
-            if (div == true)
+            if (div)
             {
                 Console.WriteLine("The number is divadible by both 5 and 7.");
             }
